@@ -8,6 +8,13 @@ The MNIST data consists of 20,000 examples of 28 × 28 images of digits (i.e., n
 `digits-embedding.csv` contains a precomputed 2-dimensional embedding of each image using t-Distributed Stochastic Neighbor Embedding (tSNE) (first column: image id, second column: class
 label, third and fourth columns: image embedding features).
 
+**28*28 pixel MNIST-Digits**:
+<img src="digits-raw.png" width="800" height="500">
+
+**Visualizing MNIST Digits in 2D using t-SNE embedding:**
+<img src="digits-embedding.png" width="800" height="500">
+
+
 Algorithms Implemented:
 1. K-Means Clustering
 2. Hierarchical Clustering
@@ -17,4 +24,4 @@ distances, (2) silhouette coefficient, and (3) normalized mutual information gai
 image labels).
 
 K-Means Clusters after 50 iterations with K=10:
-![alt text](kmeans.png)
+<img src="kmeans.png" width="800" height="500">
